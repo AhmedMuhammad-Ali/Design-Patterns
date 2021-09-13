@@ -26,7 +26,7 @@ class FirstDelegationViewController: UIViewController {
 
     @IBAction func detailsButtonTapped(_ sender: Any) {
         let storyBoard = UIStoryboard(name: "Delegation", bundle: nil)
-       let viewController = storyBoard.instantiateViewController(identifier: "SecoundDelegationViewController") as! SecoundDelegationViewController
+        let viewController = storyBoard.instantiateViewController(withIdentifier: "SecoundDelegationViewController") as! SecoundDelegationViewController
         viewController.delegate = self
         
         self.navigationController?.pushViewController(viewController, animated: true)

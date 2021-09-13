@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6006D67026B04B2A0032E172 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6006D66F26B04B2A0032E172 /* AppDelegate.swift */; };
-		6006D67226B04B2A0032E172 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6006D67126B04B2A0032E172 /* SceneDelegate.swift */; };
 		6006D67926B04B2B0032E172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6006D67826B04B2B0032E172 /* Assets.xcassets */; };
 		6006D67C26B04B2B0032E172 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6006D67A26B04B2B0032E172 /* LaunchScreen.storyboard */; };
 		6006D68726B04B2B0032E172 /* DesignPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6006D68626B04B2B0032E172 /* DesignPatternsTests.swift */; };
@@ -24,6 +23,8 @@
 		608E42E426B15E9D00284280 /* Strategy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608E42E326B15E9D00284280 /* Strategy.storyboard */; };
 		608E42E926B1943100284280 /* SingletonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E42E826B1943100284280 /* SingletonExample.swift */; };
 		608E42EB26B1A04900284280 /* SingletonVSDependancyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E42EA26B1A04900284280 /* SingletonVSDependancyInjection.swift */; };
+		60D0D4DE26F0067E00A49453 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D0D4DD26F0067E00A49453 /* Observable.swift */; };
+		60D0D4E626F0069500A49453 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D0D4E526F0069500A49453 /* Observer.swift */; };
 		60D77D4C26B95D26007B3729 /* AdapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D77D4B26B95D26007B3729 /* AdapterViewController.swift */; };
 		60D77D4E26B95D4F007B3729 /* Adapter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D77D4D26B95D4F007B3729 /* Adapter.storyboard */; };
 		60D77D5026B95D6C007B3729 /* AdapterComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D77D4F26B95D6C007B3729 /* AdapterComponents.swift */; };
@@ -49,7 +50,6 @@
 /* Begin PBXFileReference section */
 		6006D66C26B04B2A0032E172 /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6006D66F26B04B2A0032E172 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6006D67126B04B2A0032E172 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6006D67826B04B2B0032E172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6006D67B26B04B2B0032E172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6006D67D26B04B2B0032E172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,6 +70,8 @@
 		608E42E326B15E9D00284280 /* Strategy.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Strategy.storyboard; sourceTree = "<group>"; };
 		608E42E826B1943100284280 /* SingletonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonExample.swift; sourceTree = "<group>"; };
 		608E42EA26B1A04900284280 /* SingletonVSDependancyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonVSDependancyInjection.swift; sourceTree = "<group>"; };
+		60D0D4DD26F0067E00A49453 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		60D0D4E526F0069500A49453 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		60D77D4B26B95D26007B3729 /* AdapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterViewController.swift; sourceTree = "<group>"; };
 		60D77D4D26B95D4F007B3729 /* Adapter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Adapter.storyboard; sourceTree = "<group>"; };
 		60D77D4F26B95D6C007B3729 /* AdapterComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterComponents.swift; sourceTree = "<group>"; };
@@ -127,7 +129,6 @@
 				608E42E726B193CC00284280 /* BehavioralPatterns */,
 				608E42E626B193A500284280 /* CreationalPatterns */,
 				6006D66F26B04B2A0032E172 /* AppDelegate.swift */,
-				6006D67126B04B2A0032E172 /* SceneDelegate.swift */,
 				6006D67826B04B2B0032E172 /* Assets.xcassets */,
 				6006D67A26B04B2B0032E172 /* LaunchScreen.storyboard */,
 				6006D67D26B04B2B0032E172 /* Info.plist */,
@@ -204,10 +205,20 @@
 		608E42E726B193CC00284280 /* BehavioralPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				60D0D4DC26EFCEDD00A49453 /* ObserverExample */,
 				608E42DE26B1583B00284280 /* StrategyExample */,
 				6006D69F26B04D550032E172 /* DelegationExample */,
 			);
 			path = BehavioralPatterns;
+			sourceTree = "<group>";
+		};
+		60D0D4DC26EFCEDD00A49453 /* ObserverExample */ = {
+			isa = PBXGroup;
+			children = (
+				60D0D4DD26F0067E00A49453 /* Observable.swift */,
+				60D0D4E526F0069500A49453 /* Observer.swift */,
+			);
+			path = ObserverExample;
 			sourceTree = "<group>";
 		};
 		60D77D4926B9561F007B3729 /* StructuralPatterns */ = {
@@ -361,16 +372,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D0D4DE26F0067E00A49453 /* Observable.swift in Sources */,
 				60D77D5026B95D6C007B3729 /* AdapterComponents.swift in Sources */,
 				60D77D4C26B95D26007B3729 /* AdapterViewController.swift in Sources */,
 				607BFCAF26B81D0B00110018 /* FactoryComponents.swift in Sources */,
 				608E42E926B1943100284280 /* SingletonExample.swift in Sources */,
+				60D0D4E626F0069500A49453 /* Observer.swift in Sources */,
 				608E42E026B1588C00284280 /* StrategyViewController.swift in Sources */,
 				6006D6A326B04DC50032E172 /* FirstDelegationViewController.swift in Sources */,
 				607BFCB326B82D0200110018 /* FactoryViewController.swift in Sources */,
 				6006D67026B04B2A0032E172 /* AppDelegate.swift in Sources */,
 				6006D6A526B051690032E172 /* SecoundDelegationViewController.swift in Sources */,
-				6006D67226B04B2A0032E172 /* SceneDelegate.swift in Sources */,
 				608E42E226B15DB700284280 /* StrategyMainConcepts.swift in Sources */,
 				608E42EB26B1A04900284280 /* SingletonVSDependancyInjection.swift in Sources */,
 			);
@@ -542,6 +554,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DesignPatterns/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -560,6 +573,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DesignPatterns/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
